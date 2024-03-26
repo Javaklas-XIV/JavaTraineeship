@@ -5,8 +5,13 @@ public class TablePrinter {
     }
 
     public static void printTable(int number) {
-        for (int row = 1; row <= 10; row++) {
-            printTableRow(number, row);
+        printTable(number, 10);
+    }
+
+    public static void printTable(int number, int rows) {
+        if (rows > 0) {
+            printTableRow(number, rows);
+            printTable(number, rows - 1);
         }
     }
 
