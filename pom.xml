@@ -13,6 +13,8 @@
         <module>H5</module>
         <module>H6</module>
         <module>IteratorTest</module>
+        <module>H8</module>
+        <module>H9</module>
     </modules>
 
     <properties>
