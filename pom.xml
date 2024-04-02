@@ -15,6 +15,7 @@
         <module>IteratorTest</module>
         <module>H8</module>
         <module>H9</module>
+        <module>H10</module>
     </modules>
 
     <properties>
