@@ -5,6 +5,8 @@ public class PersonH10 extends Human {
 
     private String name;
 
+    public PersonH10(){};
+
     public PersonH10(String name) {
         this.setName(name);
     }
