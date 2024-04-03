@@ -1,3 +1,5 @@
+import org.example.annotations.MyAnnotation;
+import org.example.annotations.MyAnnotation2;
 import lombok.Data;
 
 @Data
@@ -5,7 +7,7 @@ public class PersonH10 extends Human {
 
     private String name;
 
-    public PersonH10(){};
+    public PersonH10(){}
 
     public PersonH10(String name) {
         this.setName(name);

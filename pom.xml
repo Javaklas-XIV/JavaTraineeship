@@ -17,6 +17,7 @@
         <module>H9</module>
         <module>H10</module>
         <module>H11</module>
+        <module>H12</module>
     </modules>
 
     <properties>
@@ -32,7 +33,6 @@
             <version>RELEASE</version>
             <scope>test</scope>
         </dependency>
-        <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
